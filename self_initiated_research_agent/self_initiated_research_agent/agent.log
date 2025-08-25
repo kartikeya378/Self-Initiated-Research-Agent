@@ -1,0 +1,32 @@
+INFO:root:Export report script started
+INFO:root:Using markdown file: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191006.md
+INFO:root:Reading markdown file: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191006.md
+INFO:root:Creating PDF from markdown content
+INFO:root:PDF saved successfully: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191006.pdf
+INFO:root:Creating HTML from markdown content
+INFO:root:HTML saved successfully: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191006.html
+INFO:root:Export report script completed successfully
+INFO:root:Export report script started
+INFO:root:Using markdown file: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191433.md
+INFO:root:Reading markdown file: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191433.md
+INFO:root:Creating PDF from markdown content
+INFO:root:PDF saved successfully: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191433.pdf
+INFO:root:Creating HTML from markdown content
+INFO:root:HTML saved successfully: C:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250824_191433.html
+INFO:root:Export report script completed successfully
+INFO:root:Export report script started
+INFO:root:Using markdown file: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.md
+INFO:root:Reading markdown file: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.md
+INFO:root:Creating PDF from markdown content
+INFO:root:PDF saved successfully: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.pdf
+INFO:root:Creating HTML from markdown content
+INFO:root:HTML saved successfully: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.html
+INFO:root:Export report script completed successfully
+INFO:root:Export report script started
+INFO:root:Using markdown file: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.md
+INFO:root:Reading markdown file: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.md
+INFO:root:Creating PDF from markdown content
+INFO:root:PDF saved successfully: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.pdf
+INFO:root:Creating HTML from markdown content
+INFO:root:HTML saved successfully: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.html
+INFO:root:Export report script completed successfully

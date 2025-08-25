@@ -1,0 +1,18 @@
+
+query: "artificial intelligence"
+days_back: 7
+max_results: 20
+
+# topic clustering
+min_topics: 3
+max_topics: 10
+
+# trend detection
+min_count: 3
+ratio_thresh: 1.5
+lookback_recent_days: 7
+lookback_baseline_days: 14
+
+# reporting
+top_n_topics: 3
+papers_per_topic: 5

@@ -1,0 +1,652 @@
+2025-08-25 09:51:11,243 - INFO - User: hello
+2025-08-25 09:51:11,243 - INFO - Command executed: unclear
+2025-08-25 09:51:11,243 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+2025-08-25 09:51:11,243 - INFO - --------------------------------------------------
+2025-08-25 09:51:29,192 - INFO - User: show the topics
+2025-08-25 09:51:29,192 - INFO - Command executed: unclear
+2025-08-25 09:51:29,192 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+2025-08-25 09:51:29,192 - INFO - --------------------------------------------------
+2025-08-25 09:51:52,702 - INFO - Executing command: list_available_topics
+2025-08-25 09:51:52,713 - INFO - User: show topics
+2025-08-25 09:51:52,713 - INFO - Command executed: list_available_topics
+2025-08-25 09:51:52,713 - INFO - Response: \U0001f4da **Available Research Topics:**
+
+| Topic | Papers | Date Range | Focus Area |
+|:--|:--|:--|:--|
+| **Discovering Hidden Algebraic** (3) | 26 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scaling Group Inference** (7) | 18 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Quantum Cohomology Variations** (4) | 15 | 2025-08-21 to 2025-08-21 | Human-Computer Interaction |
+| **Nuclei Segmentation Model** (9) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Cervical Bayesian Hierarchical** (5) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Colour Codes Reach** (1) | 7 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scene Generation Feedforward** (8) | 6 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Robust Interpretation Perturbed** (6) | 6 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Efficient World Environment** (2) | 1 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Complex Overview Organic** (0) | 1 | 2025-08-21 to 2025-08-21 | Data Science |
+
+\U0001f4a1 **Total Topics:** 10
+
+\U0001f5e3\ufe0f **To select a topic, say:** 'focus on topic X' or 'select topic X'
+\U0001f50d **To see details:** 'show topic X details' or 'analyze topic X'
+2025-08-25 09:51:52,713 - INFO - --------------------------------------------------
+2025-08-25 09:52:24,883 - INFO - Executing command: choose_research_topic
+2025-08-25 09:52:24,885 - INFO - User: focus on topic complex overview organic
+2025-08-25 09:52:24,885 - INFO - Command executed: choose_research_topic
+2025-08-25 09:52:24,885 - INFO - Response: \U0001f3af **Select a Research Topic:**
+
+Available topics:
+
+1. **Discovering Hidden Algebraic** (Topic 3)
+   \U0001f4ca Papers: 26 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+2. **Scaling Group Inference** (Topic 7)
+   \U0001f4ca Papers: 18 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Computer Vision
+
+3. **Quantum Cohomology Variations** (Topic 4)
+   \U0001f4ca Papers: 15 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Human-Computer Interaction
+
+4. **Nuclei Segmentation Model** (Topic 9)
+   \U0001f4ca Papers: 10 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+5. **Cervical Bayesian Hierarchical** (Topic 5)
+   \U0001f4ca Papers: 10 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+6. **Colour Codes Reach** (Topic 1)
+   \U0001f4ca Papers: 7 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+7. **Scene Generation Feedforward** (Topic 8)
+   \U0001f4ca Papers: 6 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Computer Vision
+
+8. **Robust Interpretation Perturbed** (Topic 6)
+   \U0001f4ca Papers: 6 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+9. **Efficient World Environment** (Topic 2)
+   \U0001f4ca Papers: 1 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+10. **Complex Overview Organic** (Topic 0)
+   \U0001f4ca Papers: 1 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Data Science
+
+\U0001f4a1 **Total Topics:** 10
+
+\U0001f5e3\ufe0f **To select, say:** 'focus on topic X' or 'choose topic X'
+\U0001f4ca **To see details:** 'analyze topic X' or 'show topic X details'
+2025-08-25 09:52:24,885 - INFO - --------------------------------------------------
+2025-08-25 09:53:13,815 - INFO - Executing command: python main.py analyze
+2025-08-25 09:53:15,736 - INFO - User: analyze topic efficient world environment
+2025-08-25 09:53:15,736 - INFO - Command executed: python main.py analyze
+2025-08-25 09:53:15,737 - INFO - Response: \u2705 Successfully executed: python main.py analyze
+
+Advanced Topic Analysis
+================================================================================
+
+Topic 0
+   Papers: 1
+   Coherence: 1.25
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: astro-ph.GA
+   Key Terms: coms, phase, ratios, show, complex, organic
+   Summary: Overview of complex organic molecule observations in protostellar systems. Complex organic molecules...
+
+Topic 1
+   Papers: 7
+   Coherence: 4.27
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: quant-ph, physics.optics, cs.ET
+   Key Terms: quantum, code, complex, temporal, colour, using
+   Summary: Two-dimensional quantum colour codes hold significant promise for quantum error correction, offering...
+
+Topic 2
+   Papers: 1
+   Coherence: 2.09
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.LG
+   Key Terms: agent, environment, agents, multi, social, open
+   Summary: An Efficient Open World Environment for Multi-Agent Social Learning. However, one virtue of such env...
+
+Topic 3
+   Papers: 26
+   Coherence: 10.45
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.AI, cs.LG, cs.CL
+   Key Terms: models, learning, model, reasoning, training, tasks
+   Summary: We introduce Language-Guided Tuning (LGT), a novel framework that employs multi-agent Large Language...
+
+Topic 4
+   Papers: 15
+   Coherence: 3.75
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cond-mat.mes-hall, math.AG, cond-mat.soft
+   Key Terms: model, topological, spin, order, phase, field
+   Summary: Combining Kerr microscopy experiments with Thiele model simulations, we demonstrate that confinement...
+
+Topic 5
+   Papers: 10
+   Coherence: 4.28
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: stat.ME, stat.AP, physics.soc-ph
+   Key Terms: model, data, framework, inference, based, models
+   Summary: In this paper, we introduce two new Multiplex Bi-Virus Reaction-Diffusion models (MBRD) on multiplex...
+
+Topic 6
+   Papers: 6
+   Coherence: 2.60
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: astro-ph.SR, astro-ph.IM, physics.comp-ph
+   Key Terms: parameters, stars, model, toothed, landslides, body
+   Summary: Robust Data Interpretation for Perturbed Nulling Interferometers via Proper Handling of Correlated E...
+
+Topic 7
+   Papers: 18
+   Coherence: 9.34
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.CV, cs.CL, cs.AI
+   Key Terms: video, visual, models, generation, image, long
+   Summary: Extensive experiments validate the superiority of our paradigm in extending the capabilities of high...
+
+Topic 8
+   Papers: 6
+   Coherence: 3.09
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.CV, cs.HC
+   Key Terms: human, models, model, wildlife, knowledge, generation
+   Summary: SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass. In this work, we address the cha...
+
+Topic 9
+   Papers: 10
+   Coherence: 7.68
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.LG, cs.CV, eess.IV
+   Key Terms: segmentation, training, model, learning, models, based
+   Summary: This model facilitates nuclei segmentation through two primary methods: prompt-based zero-shot segme...
+
+Topic Relationships
+----------------------------------------
+Topics 3 & 5: 2 shared terms (model, models)
+Topics 3 & 8: 2 shared terms (model, models)
+Topics 3 & 9: 4 shared terms (model, learning, training)
+Topics 5 & 8: 2 shared terms (model, models)
+Topics 5 & 9: 3 shared terms (based, model, models)
+Topics 7 & 8: 2 shared terms (generation, models)
+Topics 8 & 9: 2 shared terms (model, models)
+
+Detailed analysis saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\topic_analysis_20250825_042315.md
+
+2025-08-25 09:53:15,737 - INFO - --------------------------------------------------
+2025-08-25 09:53:24,126 - INFO - Executing command: python main.py report
+2025-08-25 09:53:25,909 - INFO - User: create report
+2025-08-25 09:53:25,909 - INFO - Command executed: python main.py report
+2025-08-25 09:53:25,909 - INFO - Response: \u2705 Successfully executed: python main.py report
+
+Enhanced report written: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.md
+
+2025-08-25 09:53:25,909 - INFO - --------------------------------------------------
+2025-08-25 09:53:45,656 - INFO - Executing command: python export_report.py
+2025-08-25 09:53:45,946 - INFO - User: yes convert to pdf
+2025-08-25 09:53:45,946 - INFO - Command executed: python export_report.py
+2025-08-25 09:53:45,946 - INFO - Response: \u2705 Successfully executed: python export_report.py
+
+PDF saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.pdf
+HTML saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_042325.html
+
+2025-08-25 09:53:45,946 - INFO - --------------------------------------------------
+2025-08-25 09:55:04,064 - INFO - Executing command: self_description
+2025-08-25 09:55:04,066 - INFO - User: thank you
+2025-08-25 09:55:04,066 - INFO - Command executed: self_description
+2025-08-25 09:55:04,066 - INFO - Response: 
+\U0001f916 **About Me - Your AI Research Assistant**
+
+I'm an intelligent research analysis system designed to help you discover and understand cutting-edge AI research. Here's what makes me special:
+
+**\U0001f9e0 What I Do:**
+• Automatically fetch the latest AI research papers from arXiv
+• Use machine learning to understand and categorize research content
+• Detect emerging trends and growing research areas
+• Generate comprehensive research summaries and reports
+• Provide deep insights into research topics and relationships
+
+**\U0001f52c My Capabilities:**
+• **Smart Fetching**: Get the latest papers with intelligent filtering
+• **Semantic Analysis**: Understand paper content using AI embeddings
+• **Trend Detection**: Identify what's growing vs. fading in AI research
+• **Topic Clustering**: Group related research into meaningful categories
+• **Report Generation**: Create beautiful summaries in multiple formats
+• **Advanced Analytics**: Deep insights into research patterns
+
+**\U0001f4a1 How I Work:**
+1. I fetch papers from arXiv using your search preferences
+2. I analyze the content using advanced NLP and ML techniques
+3. I identify patterns, trends, and emerging research areas
+4. I generate insights and reports to help you stay current
+
+**\U0001f3af My Mission:**
+To be your personal research intelligence system, helping you discover the most important and relevant AI research without spending hours searching and reading.
+
+I'm constantly learning and improving to provide you with the best research insights possible!
+
+2025-08-25 09:55:04,066 - INFO - --------------------------------------------------
+2025-08-25 10:06:03,728 - INFO - User: hello
+2025-08-25 10:06:03,728 - INFO - Command executed: unclear
+2025-08-25 10:06:03,728 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+• Set a research goal with 'set goal'
+• Track progress with 'show progress'
+• View achievements with 'show achievements'
+2025-08-25 10:06:03,728 - INFO - --------------------------------------------------
+2025-08-25 10:06:16,954 - INFO - Executing command: list_available_topics
+2025-08-25 10:06:16,963 - INFO - User: show topics
+2025-08-25 10:06:16,963 - INFO - Command executed: list_available_topics
+2025-08-25 10:06:16,963 - INFO - Response: \U0001f4da **Available Research Topics:**
+
+| Topic | Papers | Date Range | Focus Area |
+|:--|:--|:--|:--|
+| **Discovering Hidden Algebraic** (3) | 26 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scaling Group Inference** (7) | 18 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Quantum Cohomology Variations** (4) | 15 | 2025-08-21 to 2025-08-21 | Human-Computer Interaction |
+| **Nuclei Segmentation Model** (9) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Cervical Bayesian Hierarchical** (5) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Colour Codes Reach** (1) | 7 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scene Generation Feedforward** (8) | 6 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Robust Interpretation Perturbed** (6) | 6 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Efficient World Environment** (2) | 1 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Complex Overview Organic** (0) | 1 | 2025-08-21 to 2025-08-21 | Data Science |
+
+\U0001f4a1 **Total Topics:** 10
+
+\U0001f5e3\ufe0f **To select a topic, say:** 'focus on topic X' or 'select topic X'
+\U0001f50d **To see details:** 'show topic X details' or 'analyze topic X'
+2025-08-25 10:06:16,963 - INFO - --------------------------------------------------
+2025-08-25 10:06:16,963 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:06:52,471 - INFO - Executing command: choose_research_topic
+2025-08-25 10:06:52,479 - INFO - User: select topic complex overview organic
+2025-08-25 10:06:52,479 - INFO - Command executed: choose_research_topic
+2025-08-25 10:06:52,479 - INFO - Response: \U0001f3af **Select a Research Topic:**
+
+Available topics:
+
+1. **Discovering Hidden Algebraic** (Topic 3)
+   \U0001f4ca Papers: 26 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+2. **Scaling Group Inference** (Topic 7)
+   \U0001f4ca Papers: 18 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Computer Vision
+
+3. **Quantum Cohomology Variations** (Topic 4)
+   \U0001f4ca Papers: 15 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Human-Computer Interaction
+
+4. **Nuclei Segmentation Model** (Topic 9)
+   \U0001f4ca Papers: 10 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+5. **Cervical Bayesian Hierarchical** (Topic 5)
+   \U0001f4ca Papers: 10 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+6. **Colour Codes Reach** (Topic 1)
+   \U0001f4ca Papers: 7 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+7. **Scene Generation Feedforward** (Topic 8)
+   \U0001f4ca Papers: 6 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Computer Vision
+
+8. **Robust Interpretation Perturbed** (Topic 6)
+   \U0001f4ca Papers: 6 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+9. **Efficient World Environment** (Topic 2)
+   \U0001f4ca Papers: 1 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Machine Learning
+
+10. **Complex Overview Organic** (Topic 0)
+   \U0001f4ca Papers: 1 | \U0001f4c5 2025-08-21 to 2025-08-21
+   \U0001f3f7\ufe0f Category: Data Science
+
+\U0001f4a1 **Total Topics:** 10
+
+\U0001f5e3\ufe0f **To select, say:** 'focus on topic X' or 'choose topic X'
+\U0001f4ca **To see details:** 'analyze topic X' or 'show topic X details'
+2025-08-25 10:06:52,479 - INFO - --------------------------------------------------
+2025-08-25 10:06:52,483 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:07:23,720 - INFO - Executing command: python main.py analyze
+2025-08-25 10:07:25,684 - INFO - User: analyze topic complex overview organic
+2025-08-25 10:07:25,684 - INFO - Command executed: python main.py analyze
+2025-08-25 10:07:25,684 - INFO - Response: \u2705 Successfully executed: python main.py analyze
+
+Advanced Topic Analysis
+================================================================================
+
+Topic 0
+   Papers: 1
+   Coherence: 1.25
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: astro-ph.GA
+   Key Terms: coms, phase, ratios, show, complex, organic
+   Summary: Overview of complex organic molecule observations in protostellar systems. Complex organic molecules...
+
+Topic 1
+   Papers: 7
+   Coherence: 4.27
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: quant-ph, physics.optics, cs.ET
+   Key Terms: quantum, code, complex, temporal, colour, using
+   Summary: Two-dimensional quantum colour codes hold significant promise for quantum error correction, offering...
+
+Topic 2
+   Papers: 1
+   Coherence: 2.09
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.LG
+   Key Terms: agent, environment, agents, multi, social, open
+   Summary: An Efficient Open World Environment for Multi-Agent Social Learning. However, one virtue of such env...
+
+Topic 3
+   Papers: 26
+   Coherence: 10.45
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.AI, cs.LG, cs.CL
+   Key Terms: models, learning, model, reasoning, training, tasks
+   Summary: We introduce Language-Guided Tuning (LGT), a novel framework that employs multi-agent Large Language...
+
+Topic 4
+   Papers: 15
+   Coherence: 3.75
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cond-mat.mes-hall, math.AG, cond-mat.soft
+   Key Terms: model, topological, spin, order, phase, field
+   Summary: Combining Kerr microscopy experiments with Thiele model simulations, we demonstrate that confinement...
+
+Topic 5
+   Papers: 10
+   Coherence: 4.28
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: stat.ME, stat.AP, physics.soc-ph
+   Key Terms: model, data, framework, inference, based, models
+   Summary: In this paper, we introduce two new Multiplex Bi-Virus Reaction-Diffusion models (MBRD) on multiplex...
+
+Topic 6
+   Papers: 6
+   Coherence: 2.60
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: astro-ph.SR, astro-ph.IM, physics.comp-ph
+   Key Terms: parameters, stars, model, toothed, landslides, body
+   Summary: Robust Data Interpretation for Perturbed Nulling Interferometers via Proper Handling of Correlated E...
+
+Topic 7
+   Papers: 18
+   Coherence: 9.34
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.CV, cs.CL, cs.AI
+   Key Terms: video, visual, models, generation, image, long
+   Summary: Extensive experiments validate the superiority of our paradigm in extending the capabilities of high...
+
+Topic 8
+   Papers: 6
+   Coherence: 3.09
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.CV, cs.HC
+   Key Terms: human, models, model, wildlife, knowledge, generation
+   Summary: SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass. In this work, we address the cha...
+
+Topic 9
+   Papers: 10
+   Coherence: 7.68
+   Date Range: 2025-08-21 to 2025-08-21
+   Top Categories: cs.LG, cs.CV, eess.IV
+   Key Terms: segmentation, training, model, learning, models, based
+   Summary: This model facilitates nuclei segmentation through two primary methods: prompt-based zero-shot segme...
+
+Topic Relationships
+----------------------------------------
+Topics 3 & 5: 2 shared terms (model, models)
+Topics 3 & 8: 2 shared terms (model, models)
+Topics 3 & 9: 4 shared terms (model, learning, models)
+Topics 5 & 8: 2 shared terms (model, models)
+Topics 5 & 9: 3 shared terms (based, model, models)
+Topics 7 & 8: 2 shared terms (generation, models)
+Topics 8 & 9: 2 shared terms (model, models)
+
+Detailed analysis saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\topic_analysis_20250825_043725.md
+
+2025-08-25 10:07:25,684 - INFO - --------------------------------------------------
+2025-08-25 10:07:25,690 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:07:31,888 - INFO - User: yes proceed
+2025-08-25 10:07:31,888 - INFO - Command executed: unclear
+2025-08-25 10:07:31,888 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+• Set a research goal with 'set goal'
+• Track progress with 'show progress'
+• View achievements with 'show achievements'
+2025-08-25 10:07:31,888 - INFO - --------------------------------------------------
+2025-08-25 10:32:56,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.17:5000
+2025-08-25 10:32:56,228 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 10:32:56,228 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 10:32:57,554 - WARNING -  * Debugger is active!
+2025-08-25 10:32:57,554 - INFO -  * Debugger PIN: 112-999-183
+2025-08-25 10:33:10,956 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:10] "GET / HTTP/1.1" 200 -
+2025-08-25 10:33:11,213 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PZVczzi HTTP/1.1" 200 -
+2025-08-25 10:33:11,224 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "GET /api/status HTTP/1.1" 200 -
+2025-08-25 10:33:11,517 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "GET /api/achievements HTTP/1.1" 200 -
+2025-08-25 10:33:11,551 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PZVcz-B&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1" 200 -
+2025-08-25 10:33:11,554 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "POST /socket.io/?EIO=4&transport=polling&t=PZVcz-9&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1" 200 -
+2025-08-25 10:33:11,569 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1[0m" 500 -
+2025-08-25 10:33:11,676 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-25 10:33:11,864 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PZVc-33&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1" 200 -
+2025-08-25 10:33:16,942 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:16] "POST /socket.io/?EIO=4&transport=polling&t=PZVc_ND&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1" 200 -
+2025-08-25 10:33:42,081 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:42] "GET /api/status HTTP/1.1" 200 -
+2025-08-25 10:33:57,080 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:57] "POST /socket.io/?EIO=4&transport=polling&t=PZVd95Z&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1" 200 -
+2025-08-25 10:33:57,211 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:57] "[31m[1mGET /socket.io/?EIO=4&transport=polling&t=PZVc-8P&sid=ZpkTxL9gb9E4ZbHaAAAA HTTP/1.1[0m" 400 -
+2025-08-25 10:33:58,096 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:58] "GET /socket.io/?EIO=4&transport=polling&t=PZVd9LO HTTP/1.1" 200 -
+2025-08-25 10:33:58,364 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:58] "POST /socket.io/?EIO=4&transport=polling&t=PZVd9QN&sid=uHHIn3dRP2j3im5bAAAC HTTP/1.1" 200 -
+2025-08-25 10:33:58,413 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:58] "GET /socket.io/?EIO=4&transport=polling&t=PZVd9QP&sid=uHHIn3dRP2j3im5bAAAC HTTP/1.1" 200 -
+2025-08-25 10:33:58,424 - INFO - 127.0.0.1 - - [25/Aug/2025 10:33:58] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=uHHIn3dRP2j3im5bAAAC HTTP/1.1[0m" 500 -
+2025-08-25 10:34:12,080 - INFO - 127.0.0.1 - - [25/Aug/2025 10:34:12] "GET /api/status HTTP/1.1" 200 -
+2025-08-25 10:34:13,597 - INFO -  * Detected change in 'c:\\Users\\DELL\\Downloads\\self_initiated_research_agent\\self_initiated_research_agent\\web_ui.py', reloading
+2025-08-25 10:34:13,597 - INFO -  * Detected change in 'c:\\Users\\DELL\\Downloads\\self_initiated_research_agent\\self_initiated_research_agent\\web_ui.py', reloading
+2025-08-25 10:34:13,597 - INFO -  * Detected change in 'c:\\Users\\DELL\\Downloads\\self_initiated_research_agent\\self_initiated_research_agent\\web_ui.py', reloading
+2025-08-25 10:34:14,314 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 10:34:15,596 - ERROR - Failed to start web UI: Flask.__call__() got an unexpected keyword argument 'host'
+2025-08-25 10:34:35,478 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-25 10:34:36,578 - WARNING -  * Debugger is active!
+2025-08-25 10:34:36,581 - INFO -  * Debugger PIN: 121-457-841
+2025-08-25 10:34:53,432 - INFO - User: hi
+2025-08-25 10:34:53,432 - INFO - Response: Processing...
+2025-08-25 10:34:53,432 - INFO - --------------------------------------------------
+2025-08-25 10:34:53,436 - INFO - User: hi
+2025-08-25 10:34:53,436 - INFO - Command executed: unclear
+2025-08-25 10:34:53,436 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+• Set a research goal with 'set goal'
+• Track progress with 'show progress'
+• View achievements with 'show achievements'
+2025-08-25 10:34:53,436 - INFO - --------------------------------------------------
+2025-08-25 10:35:09,477 - INFO - User: show topics
+2025-08-25 10:35:09,477 - INFO - Response: Processing...
+2025-08-25 10:35:09,477 - INFO - --------------------------------------------------
+2025-08-25 10:35:09,477 - INFO - Executing command: list_available_topics
+2025-08-25 10:35:09,505 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:35:09,505 - INFO - User: show topics
+2025-08-25 10:35:09,505 - INFO - Command executed: list_available_topics
+2025-08-25 10:35:09,505 - INFO - Response: \U0001f4da **Available Research Topics:**
+
+| Topic | Papers | Date Range | Focus Area |
+|:--|:--|:--|:--|
+| **Discovering Hidden Algebraic** (3) | 26 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scaling Group Inference** (7) | 18 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Quantum Cohomology Variations** (4) | 15 | 2025-08-21 to 2025-08-21 | Human-Computer Interaction |
+| **Nuclei Segmentation Model** (9) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Cervical Bayesian Hierarchical** (5) | 10 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Colour Codes Reach** (1) | 7 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Scene Generation Feedforward** (8) | 6 | 2025-08-21 to 2025-08-21 | Computer Vision |
+| **Robust Interpretation Perturbed** (6) | 6 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Efficient World Environment** (2) | 1 | 2025-08-21 to 2025-08-21 | Machine Learning |
+| **Complex Overview Organic** (0) | 1 | 2025-08-21 to 2025-08-21 | Data Science |
+
+\U0001f4a1 **Total Topics:** 10
+
+\U0001f5e3\ufe0f **To select a topic, say:** 'focus on topic X' or 'select topic X'
+\U0001f50d **To see details:** 'show topic X details' or 'analyze topic X'
+2025-08-25 10:35:09,505 - INFO - --------------------------------------------------
+2025-08-25 10:35:31,592 - INFO - User: scaling group inference
+2025-08-25 10:35:31,592 - INFO - Response: Processing...
+2025-08-25 10:35:31,592 - INFO - --------------------------------------------------
+2025-08-25 10:35:31,592 - INFO - User: scaling group inference
+2025-08-25 10:35:31,592 - INFO - Command executed: unclear
+2025-08-25 10:35:31,592 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+• Set a research goal with 'set goal'
+• Track progress with 'show progress'
+• View achievements with 'show achievements'
+2025-08-25 10:35:31,593 - INFO - --------------------------------------------------
+2025-08-25 10:35:36,785 - INFO - User: get new papers
+2025-08-25 10:35:36,785 - INFO - Response: Processing...
+2025-08-25 10:35:36,785 - INFO - --------------------------------------------------
+2025-08-25 10:35:36,785 - INFO - Executing command: python main.py fetch
+2025-08-25 10:35:40,934 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:35:40,934 - INFO - User: get new papers
+2025-08-25 10:35:40,934 - INFO - Command executed: python main.py fetch
+2025-08-25 10:35:40,934 - INFO - Response: \u2705 Successfully executed: python main.py fetch
+
+Inserted 20 new papers.
+
+2025-08-25 10:35:40,934 - INFO - --------------------------------------------------
+2025-08-25 10:35:46,230 - INFO - User: what's trending?
+2025-08-25 10:35:46,230 - INFO - Response: Processing...
+2025-08-25 10:35:46,230 - INFO - --------------------------------------------------
+2025-08-25 10:35:46,230 - INFO - Executing command: python main.py trends
+2025-08-25 10:35:48,813 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:35:48,813 - INFO - User: what's trending?
+2025-08-25 10:35:48,813 - INFO - Command executed: python main.py trends
+2025-08-25 10:35:48,813 - INFO - Response: \u2705 Successfully executed: python main.py trends
+
+Enhanced Trend Analysis:
+================================================================================
+Topic  Recent   Baseline   Growth   Momentum   Novelty  Strength  
+--------------------------------------------------------------------------------
+3      26       0          26.00    26.00      1.00     702.00    
+7      18       0          18.00    18.00      1.00     342.00    
+4      15       0          15.00    15.00      1.00     240.00    
+5      10       0          10.00    10.00      1.00     110.00    
+9      10       0          10.00    10.00      1.00     110.00    
+1      7        0          7.00     7.00       1.00     56.00     
+6      6        0          6.00     6.00       1.00     42.00     
+8      6        0          6.00     6.00       1.00     42.00     
+
+Trend Categories:
+Emerging Topics: 3, 7, 4
+
+2025-08-25 10:35:48,813 - INFO - --------------------------------------------------
+2025-08-25 10:35:55,008 - INFO - User: create report
+2025-08-25 10:35:55,008 - INFO - Response: Processing...
+2025-08-25 10:35:55,008 - INFO - --------------------------------------------------
+2025-08-25 10:35:55,008 - INFO - Executing command: python main.py report
+2025-08-25 10:35:57,705 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:35:57,705 - INFO - User: create report
+2025-08-25 10:35:57,705 - INFO - Command executed: python main.py report
+2025-08-25 10:35:57,705 - INFO - Response: \u2705 Successfully executed: python main.py report
+
+Enhanced report written: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.md
+
+2025-08-25 10:35:57,705 - INFO - --------------------------------------------------
+2025-08-25 10:36:43,260 - INFO - User: covert report to pdf
+2025-08-25 10:36:43,261 - INFO - Response: Processing...
+2025-08-25 10:36:43,261 - INFO - --------------------------------------------------
+2025-08-25 10:36:43,261 - INFO - User: covert report to pdf
+2025-08-25 10:36:43,261 - INFO - Command executed: unclear
+2025-08-25 10:36:43,261 - INFO - Response: I'm not sure what you want me to do. Here are some suggestions:
+• Try saying 'get new papers' to fetch latest research
+• Say 'what's trending?' to see research trends
+• Use 'create report' to generate a summary
+• Say 'convert to PDF' to export reports
+• Ask 'tell me about yourself' to learn about me
+• Use 'what's your status?' to check progress
+• Say 'show topics' to see available research topics
+• Use 'select topic' to choose specific research areas
+• Say 'help' to see all available options
+• Set a research goal with 'set goal'
+• Track progress with 'show progress'
+• View achievements with 'show achievements'
+2025-08-25 10:36:43,261 - INFO - --------------------------------------------------
+2025-08-25 10:36:59,567 - INFO - User: convert to pdf
+2025-08-25 10:36:59,567 - INFO - Response: Processing...
+2025-08-25 10:36:59,567 - INFO - --------------------------------------------------
+2025-08-25 10:36:59,567 - INFO - Executing command: python export_report.py
+2025-08-25 10:36:59,869 - ERROR - Error checking achievements: object of type 'int' has no len()
+2025-08-25 10:36:59,869 - INFO - User: convert to pdf
+2025-08-25 10:36:59,869 - INFO - Command executed: python export_report.py
+2025-08-25 10:36:59,869 - INFO - Response: \u2705 Successfully executed: python export_report.py
+
+PDF saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.pdf
+HTML saved: c:\Users\DELL\Downloads\self_initiated_research_agent\self_initiated_research_agent\reports\report_20250825_050557.html
+
+2025-08-25 10:36:59,869 - INFO - --------------------------------------------------
+2025-08-25 10:37:08,696 - INFO - User: bye..
+2025-08-25 10:37:08,696 - INFO - Response: Processing...
+2025-08-25 10:37:08,696 - INFO - --------------------------------------------------
+2025-08-25 10:37:08,697 - INFO - User: bye..
+2025-08-25 10:37:08,697 - INFO - Response: Goodbye! Feel free to return anytime for more research insights.
+2025-08-25 10:37:08,697 - INFO - --------------------------------------------------

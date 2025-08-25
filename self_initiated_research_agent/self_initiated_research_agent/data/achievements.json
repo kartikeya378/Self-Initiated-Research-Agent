@@ -1,0 +1,55 @@
+{
+  "achievements": [
+    {
+      "id": "first_paper",
+      "name": "First Paper",
+      "description": "Analyzed your first research paper",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "topic_explorer",
+      "name": "Topic Explorer",
+      "description": "Discovered your first research topic",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "trend_spotter",
+      "name": "Trend Spotter",
+      "description": "Generated your first trend analysis",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "report_writer",
+      "name": "Report Writer",
+      "description": "Created your first research report",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "research_master",
+      "name": "Research Master",
+      "description": "Completed 10 research tasks",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "goal_setter",
+      "name": "Goal Setter",
+      "description": "Set your first research goal",
+      "earned": false,
+      "date_earned": null
+    },
+    {
+      "id": "milestone_reacher",
+      "name": "Milestone Reacher",
+      "description": "Reached your first research milestone",
+      "earned": false,
+      "date_earned": null
+    }
+  ],
+  "total_achievements": 0,
+  "achievement_history": []
+}
