@@ -19,7 +19,7 @@ It detects **emerging topics, trends, and research gaps** while providing report
 
 ## 📸 Demo Screenshot
 
-![AI Research Agent UI](assets/demo.png)
+![AI Research Agent UI](https://github.com/kartikeya378/Self-Initiated-Research-Agent/blob/main/Screenshot%202025-08-25%20112208.png)
 
 *(Screenshot of the running interface – shows chat, system status, and quick actions)*
 
