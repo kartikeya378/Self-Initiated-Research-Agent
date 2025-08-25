@@ -1,22 +1,31 @@
-# Self-Initiated Research Agent
+# 🤖Self-Initiated Research Agent
 
-## Overview
-The **Self-Initiated Research Agent** is an autonomous Python-based assistant that helps manage, track, and generate reports for research activities. It is designed to support long-term projects by storing goals, milestones, achievements, and user profiles, while also offering a reporting system in multiple formats (Markdown, HTML, PDF). The agent can run in both **command-line mode** and via a **web UI** for interactive usage.
+# AI Research Agent
 
----
-
-## Features
-- **Autonomous agent** for research assistance.
-- **Data storage** for achievements, research goals, milestones, and user profiles.
-- **Report generation** in Markdown, HTML, and PDF formats.
-- **Logs** to track agent activity.
-- **Web UI** for ease of interaction.
-- **Configurable settings** via `config.yaml`.
-- **Task Scheduler / Automation support** for periodic execution.
+An **autonomous research assistant** that fetches, analyzes, and summarizes research papers (e.g., from arXiv).  
+It detects **emerging topics, trends, and research gaps** while providing reports and interactive insights.
 
 ---
 
-## Project Structure
+## 🚀 Features
+- 📄 Fetch latest research papers automatically
+- 🔍 Topic detection & trend analysis over time
+- 📊 Generate summary reports (PDF/Markdown)
+- 🤖 Self-initiated (runs daily via scheduler)
+- 💬 Interactive chat interface for research exploration
+- ⚡ Smart suggestions: "What's trending?", "Show topics", "Set research goals"
+
+---
+
+## 📸 Demo Screenshot
+
+![AI Research Agent UI](assets/demo.png)
+
+*(Screenshot of the running interface – shows chat, system status, and quick actions)*
+
+---
+
+## 🗂️ Project Structure
 ```
 self_initiated_research_agent/
     chat_agent.log
@@ -119,10 +128,10 @@ This ensures the agent runs automatically at your chosen intervals.
 ---
 
 ## Requirements
-- Python 3.8+
+- Python 3.11.9 is the best version as of now
 - Dependencies listed in `requirements.txt` and `web_requirements.txt`.
 
 ---
 
 ## License
-This project is for educational and research purposes only.
+This project is licensed under the MIT License - free to use and modify
