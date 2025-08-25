@@ -1,25 +1,23 @@
-Self-Initiated Research Agent
-Overview
+# Self-Initiated Research Agent
 
-The Self-Initiated Research Agent is an autonomous Python-based assistant that helps manage, track, and generate reports for research activities. It is designed to support long-term projects by storing goals, milestones, achievements, and user profiles, while also offering a reporting system in multiple formats (Markdown, HTML, PDF). The agent can run in both command-line mode and via a web UI for interactive usage.
+## Overview
+The **Self-Initiated Research Agent** is an autonomous Python-based assistant that helps manage, track, and generate reports for research activities. It is designed to support long-term projects by storing goals, milestones, achievements, and user profiles, while also offering a reporting system in multiple formats (Markdown, HTML, PDF). The agent can run in both **command-line mode** and via a **web UI** for interactive usage.
 
-Features
+---
 
-Autonomous agent for research assistance.
+## Features
+- **Autonomous agent** for research assistance.
+- **Data storage** for achievements, research goals, milestones, and user profiles.
+- **Report generation** in Markdown, HTML, and PDF formats.
+- **Logs** to track agent activity.
+- **Web UI** for ease of interaction.
+- **Configurable settings** via `config.yaml`.
+- **Task Scheduler / Automation support** for periodic execution.
 
-Data storage for achievements, research goals, milestones, and user profiles.
+---
 
-Report generation in Markdown, HTML, and PDF formats.
-
-Logs to track agent activity.
-
-Web UI for ease of interaction.
-
-Configurable settings via config.yaml.
-
-Task Scheduler / Automation support for periodic execution.
-
-Project Structure
+## Project Structure
+```
 self_initiated_research_agent/
     chat_agent.log
     self_initiated_research_agent/
@@ -43,94 +41,88 @@ self_initiated_research_agent/
             user_profile.json
         reports/
             report_*.md / .html / .pdf
+```
 
-Installation
+---
 
-Clone or extract the project.
+## Installation
+1. Clone or extract the project.
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   pip install -r web_requirements.txt   # For web UI
+   ```
 
-Install Python dependencies:
+---
 
-pip install -r requirements.txt
-pip install -r web_requirements.txt   # For web UI
+## Usage
 
-Usage
-CLI Mode
-
+### CLI Mode
 Run the agent from the command line:
-
+```bash
 python main.py
+```
 
-Web UI Mode
-
+### Web UI Mode
 Launch the interactive web interface:
-
+```bash
 python web_ui.py
-
-
+```
 Or use the provided batch script:
-
+```bash
 launch_web_ui.bat
+```
 
-Report Export
-
+### Report Export
 To generate/export reports:
-
+```bash
 python export_report.py
+```
 
-Data Files
+---
 
-achievements.json – stores recorded achievements.
+## Data Files
+- **achievements.json** – stores recorded achievements.
+- **agent.db** – local database for structured storage.
+- **research_goals.json** – user-defined goals.
+- **research_milestones.json** – progress tracking milestones.
+- **user_profile.json** – stores researcher profile & preferences.
 
-agent.db – local database for structured storage.
+---
 
-research_goals.json – user-defined goals.
+## Reports
+Reports are auto-generated and stored under `reports/` in multiple formats:
+- `.md` → raw markdown
+- `.html` → web view
+- `.pdf` → printable version
 
-research_milestones.json – progress tracking milestones.
+---
 
-user_profile.json – stores researcher profile & preferences.
+## Automating with Task Scheduler
 
-Reports
+To run the agent automatically at scheduled times, you can use **Windows Task Scheduler**:
 
-Reports are auto-generated and stored under reports/ in multiple formats:
-
-.md → raw markdown
-
-.html → web view
-
-.pdf → printable version
-
-Automating with Task Scheduler
-
-To run the agent automatically at scheduled times, you can use Windows Task Scheduler:
-
-Open Task Scheduler from the Start Menu.
-
-Click Create Basic Task.
-
-Give it a name (e.g., Research Agent Auto Run).
-
-Choose the trigger (e.g., daily at 9 AM).
-
-Select Start a Program and point it to:
-
-Program: python
-
-Arguments: path\\to\\main.py
-
-Start in: project folder path
-
-Save the task.
+1. Open **Task Scheduler** from the Start Menu.
+2. Click **Create Basic Task**.
+3. Give it a name (e.g., *Research Agent Auto Run*).
+4. Choose the trigger (e.g., daily at 9 AM).
+5. Select **Start a Program** and point it to:
+   - Program: `python`
+   - Arguments: `path\to\main.py`
+   - Start in: project folder path
+6. Save the task.
 
 This ensures the agent runs automatically at your chosen intervals.
 
-(For Linux/macOS, you can use cron instead.)
+*(For Linux/macOS, you can use `cron` instead.)*
 
-Requirements
+---
 
-Python 3.8+
+## Requirements
+- Python 3.8+
+- Dependencies listed in `requirements.txt` and `web_requirements.txt`.
 
-Dependencies listed in requirements.txt and web_requirements.txt
+---
 
-License
-
+## License
 This project is for educational and research purposes only.
